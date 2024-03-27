@@ -1,0 +1,92 @@
+let dishes = [
+    {
+        'type': 'salad',
+        'name': 'Insalata Mista',
+        'description': 'gemischter Salat',
+        'price': 6.00,
+    },
+    {
+        'type': 'none',
+        'name': 'Insalata Carprese',
+        'description': 'mit Mozzarella und Tomaten',
+        'price': 7.00,
+    },
+    {
+        'type': 'none',
+        'name': 'Insalata Italia',
+        'description': 'mit Schinken, Käse und Ei',
+        'price': 7.50,
+    },
+    {
+        'type': 'none',
+        'name': 'Insalata Frutti die Mare',
+        'description': 'mit Meeresfrüchte',
+        'price': 8.50,
+    },
+    {
+        'type': 'none',
+        'name': 'Insalata die Pomodori',
+        'description': 'mit Tomaten, Zwieblen und Balsamico',
+        'price': 5.50,
+    },
+    {
+        'type': 'pizza',
+        'name': 'Pizza Margherita',
+        'description': 'mit Tomatensauce und Käse',
+        'price': 8.00,
+    },
+    {
+        'type': 'none',
+        'name': 'Pizza Salami',
+        'description': 'mit Salami',
+        'price': 8.50,
+    },
+    {
+        'type': 'none',
+        'name': 'Pizza Prosciutto',
+        'description': 'mit Schinken',
+        'price': 9.00,
+    },
+    {
+        'type': 'none',
+        'name': 'Pizza Funghi',
+        'description': 'mit Champignons',
+        'price': 9.00,
+    },
+    {
+        'type': 'none',
+        'name': 'Pizza Tonno',
+        'description': 'mit Thunfisch und Zwiebeln',
+        'price': 9.50,
+    },
+    {
+        'type': 'pasta',
+        'name': 'Pasta Napoli',
+        'description': 'mit Tomatensauce',
+        'price': 8.00,
+    },
+    {
+        'type': 'none',
+        'name': 'Pasta Bolognese',
+        'description': 'mit Hackfleischsauce',
+        'price': 9.00,
+    },
+    {
+        'type': 'none',
+        'name': 'Pasta Carbonara',
+        'description': 'mit Eigelb-Sahnesauce und Schinken',
+        'price': 9.50,
+    },
+    {
+        'type': 'none',
+        'name': 'Pasta Aglio Olio',
+        'description': 'mit Knoblauch und Olivenöl',
+        'price': 8.50,
+    },
+    {
+        'type': 'none',
+        'name': 'Pasta Spinaci',
+        'description': 'mit Blattspinat und Räucherspeckwürfel',
+        'price': 8.50,
+    },
+];

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Lieferando</title>
+        <link rel="icon" type="image/x-icon" href="./img/favicon.ico" />
+
+        <link rel="stylesheet" href="fonts.css" />
+        <link rel="stylesheet" href="style.css" />
+
+        <script src="dishes.js"></script>
+        <script src="script.js"></script>
+    </head>
+
+    <body onload="init()">
+        <div class="page-content">
+            <div class="content-wrap">
+    
+                <!-- Sektion: Header -->
+                <header>
+                    <div class="header-content ctrl-width">
+                        <div class="website-name-container">
+                            <img src="./img/logo-site.png" alt="logo-site" />
+                            <h1>Lieferando</h1>
+                        </div>
+                        <span>Speisekarte</span>
+                        <img class="more-icon" src="./img/more.png" alt="more"/>
+                    </div>
+                </header>
+
+                <!-- Hauptsektion -->
+                <section class="main-section ctrl-width">
+                    <main>
+                        <img class="logo-restaurant" src="./img/logo-restaurant.png" alt="logo-restaurant"/>
+                        <img class="cover-img" src="./img/cover-img.jpg" alt="cover-image"/>
+                        <div class="restaurant-headline-container">
+                            <h2>Restaurant Tobys</h2>
+                            <div class="restaurant-icons-container">
+                                <img src="./img/info.png" alt="info" />
+                                <img onclick="like()" id="heart_icon" src="./img/heart.png" alt="heart"/>
+                            </div>
+                        </div>
+                        <div class="restaurant-location-container">
+                            <img src="./img/map-marker.png" alt="map-marker" />
+                            <span class="fs-14">Alte Straße 1, 54321 Altstadt</span>
+                        </div>
+                        <div class="restaurant-reviews-container">
+                            <img src="./img/stars.png" alt="stars" />
+                            <span class="fs-14">823 Bewertungen</span>
+                        </div>
+                        <p class="fs-14">
+                            Bei Restaurant Tobys erhalten Sie leckere
+                            italienische Gerichte<br />
+                            Nur Lieferdienst mit Mindestbestellwert: 30 €<br />
+                            Lieferzeit: 15 - 25 min
+                        </p>
+                        <div class="selection-bar">
+                            <img src="./img/search.png" alt="search" />
+                            <a id="selection_salad" onclick="showSelection('selection_salad')" href="#selection_img_salad">Salat</a>
+                            <a id="selection_pizza" onclick="showSelection('selection_pizza')" href="#selection_img_pizza">Pizza</a>
+                            <a id="selection_pasta" onclick="showSelection('selection_pasta')" href="#selection_img_pasta">Pasta</a>
+                        </div>
+                        <div id="food_list"></div>  <!-- Gerichte-Liste -->
+                    </main>
+
+                    <!-- Warenkorb -->
+                    <aside id="basket" class="basket">
+                        <h3>Warenkorb</h3>
+                        <div id="basket_container" class="basket-container"></div>
+                    </aside>
+                    <button id="mobile_basket_button" class="mobile-basket-button d-none basket-sum-button-2" onclick="showMobileBasket()"></button>
+                    <div id="mobile_basket" class="mobile-basket d-none"></div>
+                </section>
+            </div>
+
+            <!-- Sektion: Footer -->
+            <footer>
+                <div class="footer-content ctrl-width">
+                    <img src="./img/copyright.png" alt="copyright">
+                    Lieferando made by Tobias
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
